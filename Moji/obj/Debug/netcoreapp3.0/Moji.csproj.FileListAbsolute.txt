@@ -104,3 +104,11 @@ D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.Views.pdb
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csproj.CopyComplete
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.dll
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.pdb
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Account\Connexion.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Account\Inscription.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Account\MonCompte.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Creation.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\ListPerso.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
