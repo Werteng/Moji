@@ -10,6 +10,19 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="fond.png" t="Include" />
+          <e p="logo@0.5x.png" t="Include" />
+          <e p="logo@2x.png" t="Include" />
+          <e p="Maquette.xd" t="Include" />
+          <e p="Web 1920 – 1.png" t="Include" />
+          <e p="Web 1920 – 1@2x.png" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="PersonnageController.cs" t="Include" />
+        </e>
         <e p="Data" t="Include">
           <e p="MojiDbContext.cs" t="Include" />
         </e>
@@ -19,10 +32,11 @@
           <e p="Personnage.cs" t="Include" />
           <e p="Race.cs" t="Include" />
           <e p="Sort.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20191029151903_InitialCreate.cs" t="Include" />
-          <e p="20191029151903_InitialCreate.Designer.cs" t="Include" />
+          <e p="20191118090304_InitialCreate.cs" t="Include" />
+          <e p="20191118090304_InitialCreate.Designer.cs" t="Include" />
           <e p="MojiDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Moji.csproj" t="IncludeRecursive" />
@@ -52,9 +66,28 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Connexion.cshtml" t="Include" />
+            <e p="Inscription.cshtml" t="Include" />
+            <e p="MonCompte.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Personnage" t="Include">
+            <e p="Creation.cshtml" t="Include" />
+            <e p="ListPerso.cshtml" t="Include" />
+            <e p="Personnage" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+        </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
-            <e p="site.css" t="Include" />
+            <e p="site.scss" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="js" t="Include">
