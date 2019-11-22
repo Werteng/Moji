@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj": {}
+    "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj": {
+    "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
+        "projectUniqueName": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
         "projectName": "Moji",
-        "projectPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
-        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\obj\\",
+        "projectPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
+        "packagesPath": "C:\\Users\\Biche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Biche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

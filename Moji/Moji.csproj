@@ -15,4 +15,11 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Account\Connexion.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Account\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Account\Inscription.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Account\MonCompte.cshtml" />
+  </ItemGroup>
 </Project>
