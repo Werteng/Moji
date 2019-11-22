@@ -1,7 +1,8 @@
-﻿namespace Moji.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Moji.Controllers
 {
-    public class AccountController
+    public class AccountController : Controller
     {
-        
     }
 }

@@ -4911,26 +4911,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Biche\\.nuget\\packages\\": {}
+    "C:\\Users\\Elimie\\.nuget\\packages\\": {},
+    "E:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
+      "projectUniqueName": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
       "projectName": "Moji",
-      "projectPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
-      "packagesPath": "C:\\Users\\Biche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\obj\\",
+      "projectPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
+      "packagesPath": "C:\\Users\\Elimie\\.nuget\\packages\\",
+      "outputPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Biche\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Elimie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "E:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "E:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4966,16 +4970,7 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
