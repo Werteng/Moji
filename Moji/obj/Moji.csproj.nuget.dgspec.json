@@ -1,30 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj": {}
+    "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj": {}
   },
   "projects": {
-    "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj": {
+    "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
+        "projectUniqueName": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
         "projectName": "Moji",
-        "projectPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
-        "packagesPath": "C:\\Users\\Elimie\\.nuget\\packages\\",
-        "outputPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\obj\\",
+        "projectPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
+        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Elimie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "E:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "E:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +57,16 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

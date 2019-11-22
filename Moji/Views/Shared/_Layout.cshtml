@@ -15,18 +15,17 @@
 <nav>
     <div class="container head">
         <div class="flex-container justify-content-between">
-            <div class="float-left">
-                <div class="flex-container">
-                    <img class="logo" src="~/Content/logo@2x.png"/>
-                    <a asp-controller="Home" asp-action="Index">Accueil</a>
-                    <a asp-controller="Personnage" asp-action="Index">Personnage</a>
-                </div>
+           
+            <div class="flex-container">
+                <img class="logo" src="~/Content/logo@2x.png" />
+                <a class="afirst"asp-controller="Home" asp-action="Index">Accueil</a>
+                <a asp-controller="Personnage" asp-action="Index">Personnage</a>
+                <a asp-controller="Personnage" asp-action="Index">Mon compte</a>
+                <a asp-controller="Personnage" asp-action="Index">Jouer !</a>
             </div>
+            
 
-            <div class="float-right">
-                <a asp-controller="" asp-action="">S'inscrire</a>
-                <a asp-controller="" asp-action="">Se connecter</a>
-            </div>
+            
         </div>
     </div>
 </nav>
