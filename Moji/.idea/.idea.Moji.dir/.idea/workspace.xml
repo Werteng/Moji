@@ -25,10 +25,12 @@
       <list>
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/wwwroot/css/site.scss" />
-        <option value="$PROJECT_DIR$/Views/Personnage/Index.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/PersonnageController.cs" />
+        <option value="$PROJECT_DIR$/Views/Personnage/Creation.cshtml" />
+        <option value="$PROJECT_DIR$/wwwroot/css/site.scss" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/Views/Personnage/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -93,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574415922662</updated>
-      <workItem from="1574415923794" duration="4078000" />
+      <workItem from="1574415923794" duration="7444000" />
     </task>
     <servers />
   </component>

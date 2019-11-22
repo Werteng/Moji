@@ -9,22 +9,6 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Content" t="Include">
-        <e p="Armes" t="Include">
-          <e p="baton.png" t="Include" />
-          <e p="brindille.png" t="Include" />
-          <e p="epee.png" t="Include" />
-        </e>
-        <e p="fond.png" t="Include" />
-        <e p="logo@0.5x.png" t="Include" />
-        <e p="logo@2x.png" t="Include" />
-        <e p="Maquette.xd" t="Include" />
-        <e p="Persos" t="Include">
-          <e p="mage.png" t="Include" />
-        </e>
-        <e p="Web 1920 – 1.png" t="Include" />
-        <e p="Web 1920 – 1@2x.png" t="Include" />
-      </e>
       <e p="Controllers" t="Include">
         <e p="AccountController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
@@ -84,8 +68,24 @@
         </e>
       </e>
       <e p="wwwroot" t="Include">
+        <e p="Content" t="Include">
+          <e p="Armes" t="Include">
+            <e p="baton.png" t="Include" />
+            <e p="brindille.png" t="Include" />
+            <e p="epee.png" t="Include" />
+          </e>
+          <e p="fond.png" t="Include" />
+          <e p="logo@0.5x.png" t="Include" />
+          <e p="logo@2x.png" t="Include" />
+          <e p="Maquette.xd" t="Include" />
+          <e p="Persos" t="Include">
+            <e p="mage.png" t="Include" />
+          </e>
+          <e p="Web 1920 – 1.png" t="Include" />
+          <e p="Web 1920 – 1@2x.png" t="Include" />
+        </e>
         <e p="css" t="Include">
-          <e p="site.scss" t="Include" />
+          <e p="site.css" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
         <e p="js" t="Include">

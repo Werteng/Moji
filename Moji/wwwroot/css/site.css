@@ -1,0 +1,24 @@
+﻿
+body {
+    background-color: #F28A15;
+}
+
+.head {
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.content {
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.logo {
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: #F28A15;
+    font-family: Roboto sans-serif;
+}
