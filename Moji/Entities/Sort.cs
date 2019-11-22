@@ -8,7 +8,6 @@ namespace Moji.Entities
     public class Sort
     {
         public int Id { get; set; }
-
         public string Libelle { get; set; }
         public int Cout { get; set; }
         public string Description { get; set; }

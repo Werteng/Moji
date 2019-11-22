@@ -395,6 +395,12 @@
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.19.46310"
           }
+<<<<<<< HEAD
+=======
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
+>>>>>>> cdd6a13e2cb1e8c58a868081834a05d636bd6281
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/3.0.0": {
