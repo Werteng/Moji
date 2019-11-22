@@ -50,10 +50,22 @@
         <e p="Pages" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Connexion.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Inscription.cshtml" t="Include" />
+            <e p="MonCompte.cshtml" t="Include" />
+          </e>
           <e p="Error.cshtml" t="Include" />
           <e p="Error.cshtml.cs" t="Include" />
-          <e p="Index.cshtml" t="Include" />
-          <e p="Index.cshtml.cs" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Personnage" t="Include">
+            <e p="Creation.cshtml" t="Include" />
+            <e p="ListPerso.cshtml" t="Include" />
+            <e p="Personnage" t="Include" />
+          </e>
           <e p="Privacy.cshtml" t="Include" />
           <e p="Privacy.cshtml.cs" t="Include" />
           <e p="Shared" t="Include">
@@ -66,25 +78,6 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="Views" t="Include">
-          <e p="_ViewStart.cshtml" t="Include" />
-          <e p="Account" t="Include">
-            <e p="Connexion.cshtml" t="Include" />
-            <e p="Inscription.cshtml" t="Include" />
-            <e p="MonCompte.cshtml" t="Include" />
-          </e>
-          <e p="Home" t="Include">
-            <e p="Index.cshtml" t="Include" />
-          </e>
-          <e p="Personnage" t="Include">
-            <e p="Creation.cshtml" t="Include" />
-            <e p="ListPerso.cshtml" t="Include" />
-            <e p="Personnage" t="Include" />
-          </e>
-          <e p="Shared" t="Include">
-            <e p="_Layout.cshtml" t="Include" />
-          </e>
-        </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="site.scss" t="Include" />
