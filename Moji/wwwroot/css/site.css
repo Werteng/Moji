@@ -6,6 +6,10 @@ body {
 .head {
     background-color: white;
     margin-bottom: 2%;
+    margin-top: 20px;
+    -webkit-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
 }
 
 .content {
@@ -19,6 +23,17 @@ body {
 
 a {
     text-decoration: none;
-    color: #F28A15;
+    color:rgb(140, 191, 67);
     font-family: Roboto sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    margin-right: 20px;
+}
+
+a:hover{
+    color : #F28A15;
+}
+
+.afirst{
+    margin-left:150px;
 }

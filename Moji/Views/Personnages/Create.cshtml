@@ -1,0 +1,98 @@
+﻿@model Moji.Entities.Personnage
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Personnage</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nom" class="control-label"></label>
+                <input asp-for="Nom" class="form-control" />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prenom" class="control-label"></label>
+                <input asp-for="Prenom" class="form-control" />
+                <span asp-validation-for="Prenom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AvatarUrl" class="control-label"></label>
+                <input asp-for="AvatarUrl" class="form-control" />
+                <span asp-validation-for="AvatarUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Or" class="control-label"></label>
+                <input asp-for="Or" class="form-control" />
+                <span asp-validation-for="Or" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SanteActuel" class="control-label"></label>
+                <input asp-for="SanteActuel" class="form-control" />
+                <span asp-validation-for="SanteActuel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SanteMax" class="control-label"></label>
+                <input asp-for="SanteMax" class="form-control" />
+                <span asp-validation-for="SanteMax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ManaActuel" class="control-label"></label>
+                <input asp-for="ManaActuel" class="form-control" />
+                <span asp-validation-for="ManaActuel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ManaMax" class="control-label"></label>
+                <input asp-for="ManaMax" class="form-control" />
+                <span asp-validation-for="ManaMax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Xp" class="control-label"></label>
+                <input asp-for="Xp" class="form-control" />
+                <span asp-validation-for="Xp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Niveau" class="control-label"></label>
+                <input asp-for="Niveau" class="form-control" />
+                <span asp-validation-for="Niveau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Genre" class="control-label"></label>
+                <input asp-for="Genre" class="form-control" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdRace" class="control-label"></label>
+                <input asp-for="IdRace" class="form-control" />
+                <span asp-validation-for="IdRace" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdClasse" class="control-label"></label>
+                <input asp-for="IdClasse" class="form-control" />
+                <span asp-validation-for="IdClasse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdUser" class="control-label"></label>
+                <input asp-for="IdUser" class="form-control" />
+                <span asp-validation-for="IdUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
