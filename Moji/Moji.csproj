@@ -15,8 +15,4 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
-  </ItemGroup>
 </Project>
