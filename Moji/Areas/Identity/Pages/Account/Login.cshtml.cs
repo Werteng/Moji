@@ -54,7 +54,7 @@ namespace Moji.Areas.Identity.Pages.Account
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Se souvenir de moi ?")]
             public bool RememberMe { get; set; }
         }
 
@@ -86,7 +86,7 @@ namespace Moji.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
+                    _logger.LogInformation("Utilisateur connecté.");
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -95,12 +95,12 @@ namespace Moji.Areas.Identity.Pages.Account
                 }
                 if (result.IsLockedOut)
                 {
-                    _logger.LogWarning("User account locked out.");
+                    _logger.LogWarning("Compte utilisateur bloquer.");
                     return RedirectToPage("./Lockout");
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Invalid login essai.");
                     return Page();
                 }
             }
@@ -131,10 +131,10 @@ namespace Moji.Areas.Identity.Pages.Account
                 protocol: Request.Scheme);
             await _emailSender.SendEmailAsync(
                 Input.Email,
-                "Confirm your email",
-                $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                "Confirmez votre email",
+                $"Veuillez confirmer votre compte par <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>cCliquez ici</a>.");
 
-            ModelState.AddModelError(string.Empty, "Verification email sent. Please check your email.");
+            ModelState.AddModelError(string.Empty, "L'email de vérification a été envoyé. Merci de consulter vos emails.");
             return Page();
         }
     }

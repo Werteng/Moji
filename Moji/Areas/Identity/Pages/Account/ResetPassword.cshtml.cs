@@ -33,13 +33,13 @@ namespace Moji.Areas.Identity.Pages.Account
             public string Email { get; set; }
 
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "Le {0} doit avoir au moins {2} et plus de {1} characters de long.", MinimumLength = 6)]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
             [DataType(DataType.Password)]
             [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Compare("Password", ErrorMessage = "Le mot de passe et la confirmation ne match pas")]
             public string ConfirmPassword { get; set; }
 
             public string Code { get; set; }
@@ -49,7 +49,7 @@ namespace Moji.Areas.Identity.Pages.Account
         {
             if (code == null)
             {
-                return BadRequest("A code must be supplied for password reset.");
+                return BadRequest("Un code doit être envoyer pour reset le mot de passe");
             }
             else
             {
