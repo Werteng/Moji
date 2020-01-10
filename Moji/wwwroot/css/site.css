@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: white;
+    
     text-decoration: none;
 }
 
@@ -99,10 +99,33 @@ div.container.content {
     font-size: 25px;
 }
 
-.bouttonCrePerso{
-    display:inline-block;
+.creerPerso:hover {
+    color: #F28A15;
+}
+
+.bouttonCrePerso {
+    display: inline-block;
 }
 
 td{
     text-align:center;
+}
+
+.creerEditer {
+    padding: 20px;
+    margin:0 auto;
+    width:80%;
+    border: 2px solid #F28A15;
+}
+
+.creerEditer a {
+    color: rgb(140, 191, 67);
+}
+
+.creerEditer a:hover {
+    color: #F28A15;
+}
+
+.bouttonCrePerso a{
+    color:white;
 }
