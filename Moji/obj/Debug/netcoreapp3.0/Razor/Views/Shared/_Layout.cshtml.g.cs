@@ -13,7 +13,7 @@ namespace Moji.Pages.Shared
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\SEVE Ludivine\Documents\Nicolas\Moji\Moji\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Views\_ViewImports.cshtml"
 using Moji;
 
 #line default

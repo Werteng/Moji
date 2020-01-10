@@ -100,7 +100,7 @@ namespace Moji.Areas.Identity.Pages.Account
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login essai.");
+                    ModelState.AddModelError(string.Empty, "Invalide");
                     return Page();
                 }
             }
@@ -119,7 +119,7 @@ namespace Moji.Areas.Identity.Pages.Account
             var user = await _userManager.FindByEmailAsync(Input.Email);
             if (user == null)
             {
-                ModelState.AddModelError(string.Empty, "Verification email sent. Please check your email.");
+                ModelState.AddModelError(string.Empty, "Vérification d'email envoyé, veuilliez verifier votre boite mail.");
             }
 
             var userId = await _userManager.GetUserIdAsync(user);
@@ -134,7 +134,7 @@ namespace Moji.Areas.Identity.Pages.Account
                 "Confirmez votre email",
                 $"Veuillez confirmer votre compte par <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>cCliquez ici</a>.");
 
-            ModelState.AddModelError(string.Empty, "L'email de vérification a été envoyé. Merci de consulter vos emails.");
+            ModelState.AddModelError(string.Empty, "L'email de vérification à été envoyé. Merci de consulter vos emails.");
             return Page();
         }
     }

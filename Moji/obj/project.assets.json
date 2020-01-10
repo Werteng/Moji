@@ -8405,23 +8405,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SEVE Ludivine\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\antoi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SEVE Ludivine\\Documents\\Nicolas\\Moji\\Moji\\Moji.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
       "projectName": "Moji",
-      "projectPath": "C:\\Users\\SEVE Ludivine\\Documents\\Nicolas\\Moji\\Moji\\Moji.csproj",
-      "packagesPath": "C:\\Users\\SEVE Ludivine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SEVE Ludivine\\Documents\\Nicolas\\Moji\\Moji\\obj\\",
+      "projectPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
+      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SEVE Ludivine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
