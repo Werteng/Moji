@@ -11,7 +11,7 @@
 <div class="creationPersonnage">
     <p>
         <div>
-            <a class="creerPerso"asp-action ="Create">Creer un nouveau personnage</a>
+            <a class="creerPerso" asp-action="Create">Creer un nouveau personnage</a>
         </div>
     </p>
     <table class="table">
@@ -20,35 +20,20 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Nom)
                 </th>
-            <tr>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Nom)
-                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Prenom)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.AvatarUrl)
-                </th>
+
                 <th>
                     @Html.DisplayNameFor(model => model.Or)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.SanteActuel)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.SanteMax)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.ManaActuel)
-                </th>
-                <th>
                     @Html.DisplayNameFor(model => model.ManaMax)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Xp)
-                </th>
+
                 <th>
                     @Html.DisplayNameFor(model => model.Niveau)
                 </th>
@@ -56,18 +41,12 @@
                     @Html.DisplayNameFor(model => model.Genre)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.IdRace)
+                    Race
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.IdClasse)
+                    Classe
                 </th>
                 <th></th>
-            </tr>
-            <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
             </tr>
         </thead>
         <tbody>
@@ -103,14 +82,15 @@
                     </td>
                     <td>
                         <button type="button" class="btn btn-success mb-2 bouttonCrePerso">
-                            <a asp-action="Edit" asp-route-id="@item.Id">Editer</a> </button>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Editer</a>
+                        </button>
                         <button type="button" class="btn btn-info mb-2 bouttonCrePerso">
                             <a asp-action="Details" asp-route-id="@item.Id">Details</a>
                         </button>
                         <button type="button" class="btn btn-danger mb-2 bouttonCrePerso">
                             <a asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
                         </button>
-</td>
+                    </td>
                 </tr>
             }
         </tbody>
