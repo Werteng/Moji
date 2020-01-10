@@ -13,42 +13,42 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 5 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account.Manage;
 
 #line default
@@ -97,7 +97,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
   
     ViewData["Title"] = "Supprimer vos données";
     ViewData["ActivePage"] = ManageNavPages.PersonalData;
@@ -107,7 +107,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #nullable disable
             WriteLiteral("\r\n<h4>");
 #nullable restore
-#line 8 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 8 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
 Write(ViewData["Title"]);
 
 #line default
@@ -122,7 +122,7 @@ Write(ViewData["Title"]);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper);
 #nullable restore
-#line 18 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 18 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSummary = global::Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.All;
 
 #line default
@@ -139,7 +139,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n");
 #nullable restore
-#line 19 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 19 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
          if (Model.RequirePassword)
         {
 
@@ -154,7 +154,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 #nullable restore
-#line 22 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 22 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.Password);
 
 #line default
@@ -175,7 +175,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
-#line 23 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 23 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.Password);
 
 #line default
@@ -197,7 +197,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 #nullable restore
-#line 24 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 24 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.Password);
 
 #line default
@@ -214,7 +214,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n");
 #nullable restore
-#line 26 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
+#line 26 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
         }
 
 #line default

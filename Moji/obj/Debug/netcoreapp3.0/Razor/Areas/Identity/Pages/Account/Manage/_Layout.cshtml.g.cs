@@ -13,42 +13,42 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 5 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account.Manage;
 
 #line default
@@ -86,7 +86,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_Layout.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_Layout.cshtml"
   
     Layout = "/Views/Shared/_Layout.cshtml";
 
@@ -110,7 +110,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n        </div>\r\n        <div class=\"col-md-9\">\r\n            ");
 #nullable restore
-#line 15 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_Layout.cshtml"
+#line 15 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_Layout.cshtml"
        Write(RenderBody());
 
 #line default
@@ -120,7 +120,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
             DefineSection("Scripts", async() => {
                 WriteLiteral("\r\n    ");
 #nullable restore
-#line 21 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_Layout.cshtml"
+#line 21 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_Layout.cshtml"
 Write(RenderSection("Scripts", required: false));
 
 #line default

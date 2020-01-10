@@ -13,42 +13,42 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 5 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account.Manage;
 
 #line default
@@ -93,7 +93,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
   
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 
@@ -110,7 +110,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
             BeginAddHtmlAttributeValues(__tagHelperExecutionContext, "class", 2, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
             AddHtmlAttributeValue("", 227, "nav-link", 227, 8, true);
 #nullable restore
-#line 6 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
+#line 6 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
 AddHtmlAttributeValue(" ", 235, ManageNavPages.IndexNavClass(ViewContext), 236, 42, false);
 
 #line default
@@ -137,7 +137,7 @@ AddHtmlAttributeValue(" ", 235, ManageNavPages.IndexNavClass(ViewContext), 236, 
             BeginAddHtmlAttributeValues(__tagHelperExecutionContext, "class", 2, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
             AddHtmlAttributeValue("", 365, "nav-link", 365, 8, true);
 #nullable restore
-#line 7 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
+#line 7 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
 AddHtmlAttributeValue(" ", 373, ManageNavPages.EmailNavClass(ViewContext), 374, 42, false);
 
 #line default
@@ -164,7 +164,7 @@ AddHtmlAttributeValue(" ", 373, ManageNavPages.EmailNavClass(ViewContext), 374, 
             BeginAddHtmlAttributeValues(__tagHelperExecutionContext, "class", 2, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
             AddHtmlAttributeValue("", 499, "nav-link", 499, 8, true);
 #nullable restore
-#line 8 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
+#line 8 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml"
 AddHtmlAttributeValue(" ", 507, ManageNavPages.ChangePasswordNavClass(ViewContext), 508, 51, false);
 
 #line default

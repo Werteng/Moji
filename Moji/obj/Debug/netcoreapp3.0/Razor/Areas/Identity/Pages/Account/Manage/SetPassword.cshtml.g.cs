@@ -13,42 +13,42 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 5 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account.Manage;
 
 #line default
@@ -97,7 +97,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
   
     ViewData["Title"] = "Définir mot de passe";
     ViewData["ActivePage"] = ManageNavPages.ChangePassword;
@@ -114,7 +114,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Name = (string)__tagHelperAttribute_0.Value;
             __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
 #nullable restore
-#line 9 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 9 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.StatusMessage);
 
 #line default
@@ -137,7 +137,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.For = ModelExpressionProv
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper);
 #nullable restore
-#line 17 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 17 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSummary = global::Microsoft.AspNetCore.Mvc.Rendering.ValidationSummary.All;
 
 #line default
@@ -160,7 +160,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 #nullable restore
-#line 19 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 19 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.NewPassword);
 
 #line default
@@ -181,7 +181,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
-#line 20 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 20 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.NewPassword);
 
 #line default
@@ -203,7 +203,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 #nullable restore
-#line 21 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 21 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.NewPassword);
 
 #line default
@@ -226,7 +226,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 #nullable restore
-#line 24 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 24 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.ConfirmPassword);
 
 #line default
@@ -247,7 +247,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
-#line 25 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 25 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.ConfirmPassword);
 
 #line default
@@ -269,7 +269,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 #nullable restore
-#line 26 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
+#line 26 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Input.ConfirmPassword);
 
 #line default

@@ -20,20 +20,35 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Nom)
                 </th>
+            <tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nom)
+                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Prenom)
                 </th>
-                
+                <th>
+                    @Html.DisplayNameFor(model => model.AvatarUrl)
+                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Or)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SanteActuel)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.SanteMax)
                 </th>
                 <th>
+                    @Html.DisplayNameFor(model => model.ManaActuel)
+                </th>
+                <th>
                     @Html.DisplayNameFor(model => model.ManaMax)
                 </th>
-                
+                <th>
+                    @Html.DisplayNameFor(model => model.Xp)
+                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Niveau)
                 </th>
@@ -41,12 +56,18 @@
                     @Html.DisplayNameFor(model => model.Genre)
                 </th>
                 <th>
-                    Race
+                    @Html.DisplayNameFor(model => model.IdRace)
                 </th>
                 <th>
-                    Classe
+                    @Html.DisplayNameFor(model => model.IdClasse)
                 </th>
                 <th></th>
+            </tr>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
             </tr>
         </thead>
         <tbody>

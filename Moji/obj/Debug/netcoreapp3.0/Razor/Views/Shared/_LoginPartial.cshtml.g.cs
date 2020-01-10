@@ -13,21 +13,21 @@ namespace Moji.Pages.Shared
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Views\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Views\_ViewImports.cshtml"
 using Moji;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
 using Moji.Areas.Identity.Data;
 
 #line default
@@ -77,7 +77,7 @@ using Moji.Areas.Identity.Data;
             WriteLiteral("\r\n");
             WriteLiteral("\r\n\r\n");
 #nullable restore
-#line 8 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
+#line 8 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
  if (SignInManager.IsSignedIn(User))
 {
    
@@ -127,7 +127,7 @@ using Moji.Areas.Identity.Data;
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 14 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
+#line 14 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
                                                                                                           WriteLiteral(Url.Action("Index", "Home", new { area = "" }));
 
 #line default
@@ -145,7 +145,7 @@ using Moji.Areas.Identity.Data;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 #nullable restore
-#line 17 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
+#line 17 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
   
 }
 else
@@ -196,7 +196,7 @@ else
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 #nullable restore
-#line 26 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
+#line 26 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_LoginPartial.cshtml"
   
 }
 

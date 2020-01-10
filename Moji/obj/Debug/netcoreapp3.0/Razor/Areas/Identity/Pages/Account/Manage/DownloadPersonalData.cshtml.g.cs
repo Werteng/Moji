@@ -13,42 +13,42 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 2 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
+#line 5 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\_ViewImports.cshtml"
 using Moji.Areas.Identity.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml"
 using Moji.Areas.Identity.Pages.Account.Manage;
 
 #line default
@@ -86,7 +86,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml"
+#line 3 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml"
   
     ViewData["Title"] = "Telecharger vos données";
     ViewData["ActivePage"] = ManageNavPages.PersonalData;
@@ -96,7 +96,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #nullable disable
             WriteLiteral("\r\n<h4>");
 #nullable restore
-#line 8 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml"
+#line 8 "D:\MDS B3 DEV\C#\Moji\Moji\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml"
 Write(ViewData["Title"]);
 
 #line default
