@@ -13,7 +13,7 @@ namespace Moji.Pages.Shared
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\antoi\source\repos\Moji\Moji\Views\_ViewImports.cshtml"
+#line 1 "D:\MDS B3 DEV\C#\Moji\Moji\Views\_ViewImports.cshtml"
 using Moji;
 
 #line default
@@ -183,7 +183,7 @@ using Moji;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </nav>\r\n\r\n    <div class=\"container content\">\r\n        ");
 #nullable restore
-#line 33 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_Layout.cshtml"
+#line 33 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_Layout.cshtml"
    Write(RenderBody());
 
 #line default
@@ -191,7 +191,7 @@ using Moji;
 #nullable disable
                 WriteLiteral("\r\n    </div>\r\n\r\n    ");
 #nullable restore
-#line 36 "C:\Users\antoi\source\repos\Moji\Moji\Views\Shared\_Layout.cshtml"
+#line 36 "D:\MDS B3 DEV\C#\Moji\Moji\Views\Shared\_Layout.cshtml"
 Write(RenderSection("Scripts", required: false));
 
 #line default
