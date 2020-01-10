@@ -1,21 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj": {}
+    "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj": {
+    "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
+        "projectUniqueName": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
         "projectName": "Moji",
-        "projectPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
-        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\obj\\",
+        "projectPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
+        "packagesPath": "C:\\Users\\Elimie\\.nuget\\packages\\",
+        "outputPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Elimie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "E:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -38,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -61,7 +68,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

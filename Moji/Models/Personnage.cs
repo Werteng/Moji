@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Moji.Entities
 {
@@ -23,7 +25,6 @@ namespace Moji.Entities
         public Race Race { get; set; }
         public int IdClasse { get; set; }
         public Classe Classe { get; set; }
-
         public int IdUser { get; set; }
         public User User { get; set; }
     }
