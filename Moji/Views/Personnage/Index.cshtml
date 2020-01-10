@@ -4,59 +4,22 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div class="affichagePersonnage">
+    <img class="imgfond" src="~/Content/fond.png" alt="" />
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<div class="creationPersonnage">
+    <p>
+        <div>
+            <a class="creerPerso"asp-action ="Create">Creer un nouveau personnage</a>
+        </div>
+    </p>
+    <table class="table">
+        <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Nom)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prenom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AvatarUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Or)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SanteActuel)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SanteMax)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ManaActuel)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ManaMax)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Xp)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Niveau)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Genre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdRace)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdClasse)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.Nom)
@@ -74,10 +37,10 @@
                     @Html.DisplayFor(modelItem => item.SanteActuel)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.SanteMax)
                 </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.ManaActuel)
+                <td>
+                    @Html.DisplayFor(modelItem => item.SanteMax)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.ManaMax)
@@ -103,6 +66,53 @@
                     <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nom)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Prenom)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Or)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SanteMax)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ManaMax)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Niveau)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Genre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdRace)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdClasse)
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-success mb-2 bouttonCrePerso">
+                            <a asp-action="Edit" asp-route-id="@item.Id">Editer</a> </button>
+                        <button type="button" class="btn btn-info mb-2 bouttonCrePerso">
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        </button>
+                        <button type="button" class="btn btn-danger mb-2 bouttonCrePerso">
+                            <a asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+                        </button>
+</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="clear">
+
+</div>
