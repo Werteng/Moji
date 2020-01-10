@@ -14,22 +14,24 @@
 <body>
     
     <nav>
-        <div class="container head">
+        <div class="centrer navbarsite">
             <div class="flex-container justify-content-between">
                 
                 <div class="flex-container">
-                    <img class="logo" src="~/Content/logo@2x.png" />
-                    <a asp-controller="Home" asp-action="Index">Accueil</a>
-                    <a asp-controller="Personnage" asp-action="Index">Personnage</a>
-                    <a asp-controller="Personnage" asp-action="Index">Jouer !</a>
+                    <div class="liennavbar">
+                        <img class="logo" src="~/Content/logo@2x.png" />
+                        <a asp-controller="Home" asp-action="Index">Accueil</a>
+                        <a asp-controller="Personnage" asp-action="Index">Personnage</a>
+                        <a asp-controller="Personnage" asp-action="Index">Jouer !</a>
 
-                    <partial name="_LoginPartial" />
+                        <partial name="_LoginPartial" />
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="container content">
+    <div class="centrer">
         @RenderBody()
     </div>
 

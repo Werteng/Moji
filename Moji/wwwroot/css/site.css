@@ -14,24 +14,35 @@ body {
 
 .content {
     background-color: white;
-    margin-bottom: 2%;
+
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:none;
+    color:white;
 }
 
 .logo {
     width: 20%;
 }
 
-a {
+.liennavbar a{ 
     text-decoration: none;
-    color:rgb(140, 191, 67);
+    color: rgb(140, 191, 67);
     font-family: Roboto sans-serif;
-    font-size:25px;
-    text-transform:uppercase;
+    font-size: 25px;
+    text-transform: uppercase;
     margin-right: 20px;
 }
 
-a:hover{
-    color : #F28A15;
+.liennavbar a:hover {
+    color: #F28A15;
 }
 
 .afirst{
@@ -40,22 +51,58 @@ a:hover{
 
 
 .affichagePersonnage {
-    display: inline-block;
-    width: 30.25%;
+    float:left;
+    width: 25.1%;
     border: 2px solid #F28A15;
     
 }
 
 div.container.content {
+    
+   
+}
+
+.creationPersonnage {
+    padding:20px;
+    display: inline-block;
+    width: 73%;
+    border: 2px solid #F28A15;
+    float:right
+}
+
+.imgfond{
+    height:596px;
+}
+
+.clear{
+    clear:both;
+}
+
+.centrer {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
     -webkit-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
     padding: 10px;
 }
 
-.creationPersonnage {
-    padding:20px;
-    display: inline-block;
-    width: 60%;
-    border: 2px solid #F28A15;
+.navbarsite{
+    margin-bottom: 2%;
+    margin-top: 20px;
+}
+
+.creerPerso {
+    color: rgb(140, 191, 67);
+    font-family: Roboto sans-serif;
+    font-size: 25px;
+}
+
+.bouttonCrePerso{
+    display:inline-block;
+}
+
+td{
+    text-align:center;
 }
