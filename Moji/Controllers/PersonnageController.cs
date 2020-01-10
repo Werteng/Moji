@@ -26,17 +26,17 @@ namespace Moji.Controllers
 
         public IActionResult Save(Personnage personnage)
         {
-            if (personnage.Id != null)
-            {
-                db.Update(personnage);
-            } else
+            if (personnage.Id.Equals(null))
             {
                 db.Add(personnage);
-
+            } else
+            {
+                db.Update(personnage);
             }
             db.SaveChanges();
             return RedirectToAction("Index", "Personnage");
         }
+
 
         public IActionResult Edit(int Id)
         {
