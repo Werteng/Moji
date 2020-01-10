@@ -54,7 +54,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"93bd5aa26646ac6bf9d2887f61fc8b9f3f6b0320", @"/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0d5f848dbdb37e69e088246b7d9712dcdb7dfa94", @"/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6636bba19998b8677ee0622bbe510231614580c", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8515049762a2399753d8ceb51f7ce17df954a034", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34f70b5749d0118b2d73916dffda39c7be3355d7", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
@@ -99,7 +99,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #nullable restore
 #line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml"
   
-    ViewData["Title"] = "Delete Personal Data";
+    ViewData["Title"] = "Supprimer vos données";
     ViewData["ActivePage"] = ManageNavPages.PersonalData;
 
 #line default
@@ -219,7 +219,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
 #line default
 #line hidden
 #nullable disable
-                WriteLiteral("        <button class=\"btn btn-danger\" type=\"submit\">Delete data and close my account</button>\r\n    ");
+                WriteLiteral("    <button class=\"btn btn-danger\" type=\"submit\">Supprimer des données et fermer mon compte</button>\r\n    ");
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();

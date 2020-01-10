@@ -8,11 +8,11 @@
 @if (SignInManager.IsSignedIn(User))
 {
    
-        <a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+        <a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Mon Compte</a>
     
     
         <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button id="logout" type="submit">Deconnection</button>
+            <button id="logout" type="submit">Deconnexion</button>
         </form>
   
 }

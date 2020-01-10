@@ -54,7 +54,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6c914e3c47152860f73fa3b40eed8f865759bc07", @"/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c3c5bf7cb3fc59bd70a7a85b02c33ba2f2747621", @"/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6636bba19998b8677ee0622bbe510231614580c", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8515049762a2399753d8ceb51f7ce17df954a034", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34f70b5749d0118b2d73916dffda39c7be3355d7", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
@@ -99,7 +99,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #nullable restore
 #line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml"
   
-    ViewData["Title"] = "Change password";
+    ViewData["Title"] = "Changer votre mot de passe";
     ViewData["ActivePage"] = ManageNavPages.ChangePassword;
 
 #line default
@@ -355,7 +355,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 }
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
-                WriteLiteral("\r\n            </div>\r\n            <button type=\"submit\" class=\"btn btn-primary\">Update password</button>\r\n        ");
+                WriteLiteral("\r\n            </div>\r\n            <button type=\"submit\" class=\"btn btn-primary\">Mettre à jour</button>\r\n        ");
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();

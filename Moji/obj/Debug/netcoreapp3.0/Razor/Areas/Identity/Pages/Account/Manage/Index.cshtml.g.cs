@@ -54,7 +54,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"02b55dbf1154fb16983a2a81f63919f94bb6db29", @"/Areas/Identity/Pages/Account/Manage/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f54dc6ad21712b705254a076051cd4b948cf783", @"/Areas/Identity/Pages/Account/Manage/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6636bba19998b8677ee0622bbe510231614580c", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8515049762a2399753d8ceb51f7ce17df954a034", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34f70b5749d0118b2d73916dffda39c7be3355d7", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
@@ -271,7 +271,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 }
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
-                WriteLiteral("\r\n            </div>\r\n            <button id=\"update-profile-button\" type=\"submit\" class=\"btn btn-primary\">Save</button>\r\n        ");
+                WriteLiteral("\r\n            </div>\r\n            <button id=\"update-profile-button\" type=\"submit\" class=\"btn btn-primary\">Sauvegarder</button>\r\n        ");
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();

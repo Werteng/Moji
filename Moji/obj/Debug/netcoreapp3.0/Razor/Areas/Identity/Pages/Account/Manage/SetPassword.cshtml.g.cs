@@ -54,7 +54,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"24a823c08e1dc84f85e75e97356dbc4762badf08", @"/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b3d22abe45d12c2e0f3bca10d94647037a6ad2a1", @"/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6636bba19998b8677ee0622bbe510231614580c", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8515049762a2399753d8ceb51f7ce17df954a034", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34f70b5749d0118b2d73916dffda39c7be3355d7", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
@@ -99,7 +99,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #nullable restore
 #line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml"
   
-    ViewData["Title"] = "Set password";
+    ViewData["Title"] = "Définir mot de passe";
     ViewData["ActivePage"] = ManageNavPages.ChangePassword;
 
 #line default

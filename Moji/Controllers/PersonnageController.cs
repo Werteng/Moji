@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Moji.Data;
 using Moji.Entities;
+using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 
@@ -18,24 +19,37 @@ namespace Moji.Controllers
             return View(personnages);
         }
 
-        public IActionResult Create()
+        public IActionResult Create(int Id)
         { 
             return View();
-
         }
 
         public IActionResult Save(Personnage personnage)
         {
-            db.Add(personnage);
+            if (personnage.Id != null)
+            {
+                db.Update(personnage);
+            } else
+            {
+                db.Add(personnage);
+
+            }
             db.SaveChanges();
             return RedirectToAction("Index", "Personnage");
         }
 
-        public IActionResult Edit(Personnage personnage)
+        public IActionResult Edit(int Id)
         {
-            db.Update(personnage);
-            db.SaveChanges();
-            return View();
+            var personnages = db.Personnages.ToList();
+            Personnage result = new Personnage();
+            foreach (Personnage perso in personnages)
+            {
+                if (perso.Id == Id)
+                {
+                    result = perso;
+                }
+            }
+            return View(result);
         }
 
         public IActionResult Delete(Personnage personnage)

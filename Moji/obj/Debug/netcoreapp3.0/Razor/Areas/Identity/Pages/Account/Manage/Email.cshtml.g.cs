@@ -54,7 +54,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6edb20e9dfca654fc2124afa3ad5a020a43751f", @"/Areas/Identity/Pages/Account/Manage/Email.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ef4f8b58a1f83679c931d41f4c782c64b8b7e421", @"/Areas/Identity/Pages/Account/Manage/Email.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6636bba19998b8677ee0622bbe510231614580c", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8515049762a2399753d8ceb51f7ce17df954a034", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34f70b5749d0118b2d73916dffda39c7be3355d7", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
@@ -107,7 +107,7 @@ using Moji.Areas.Identity.Pages.Account.Manage;
 #nullable restore
 #line 3 "C:\Users\antoi\source\repos\Moji\Moji\Areas\Identity\Pages\Account\Manage\Email.cshtml"
   
-    ViewData["Title"] = "Manage Email";
+    ViewData["Title"] = "Gerer votre Email";
     ViewData["ActivePage"] = ManageNavPages.Email;
 
 #line default
