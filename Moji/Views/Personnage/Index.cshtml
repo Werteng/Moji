@@ -16,51 +16,54 @@
     </p>
     <table class="table">
         <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nom)
-            </th>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nom)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Prenom)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.AvatarUrl)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Or)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SanteActuel)
-                </td>
-                <td>
-                </td>
-                    @Html.DisplayFor(modelItem => item.ManaActuel)
-                <td>
-                    @Html.DisplayFor(modelItem => item.SanteMax)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ManaMax)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Xp)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Niveau)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Genre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdRace)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdClasse)
-                </td>
-                <td>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nom)
+                </th>
+            <tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Prenom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AvatarUrl)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Or)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SanteActuel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SanteMax)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ManaActuel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ManaMax)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Xp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Niveau)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Genre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdRace)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdClasse)
+                </th>
+                <th></th>
+            </tr>
+            <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
