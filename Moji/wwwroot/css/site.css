@@ -40,6 +40,7 @@ a:hover{
 
 
 .affichagePersonnage {
+    display: inline-block;
     width: 30.25%;
     border: 2px solid #F28A15;
     
@@ -50,4 +51,11 @@ div.container.content {
     -moz-box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
     box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.75);
     padding: 10px;
+}
+
+.creationPersonnage {
+    padding:20px;
+    display: inline-block;
+    width: 60%;
+    border: 2px solid #F28A15;
 }
