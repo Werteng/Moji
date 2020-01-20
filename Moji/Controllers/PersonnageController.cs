@@ -30,10 +30,12 @@ namespace Moji.Controllers
             {
                 if (personnage.Id.Equals(null))
                 {
+                    personnage.assignAvatar();
                     db.Add(personnage);
                 }
                 else
                 {
+                    personnage.assignAvatar();
                     db.Update(personnage);
                 }
                 db.SaveChanges();

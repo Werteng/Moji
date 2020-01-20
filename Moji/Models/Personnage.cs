@@ -12,7 +12,12 @@ namespace Moji.Entities
         public Personnage()
         {
             this.ManaActuel = 20;
-            this.ManaMax = 120;
+            this.ManaMax = 100;
+            this.Or = 0;
+            this.SanteActuel = 100;
+            this.SanteMax = 100;
+            this.Xp = 0;
+            this.Niveau = 0;
         }
 
         public int Id { get; set; }
@@ -31,5 +36,15 @@ namespace Moji.Entities
         public Race Race { get; set; }
         public int IdClasse { get; set; }
         public Classe Classe { get; set; }
+
+        public void assignAvatar()
+        {
+            if(this.IdRace == 0)
+            {
+                this.AvatarUrl = "./wwwroot/Content/Persos/mage.png";
+            }
+
+            //TODO attribuer images aux classes et faire la même chose pour race
+        }
     }
 }
