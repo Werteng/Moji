@@ -31,7 +31,6 @@ namespace Moji.Entities
         public float ManaMax { get; set; }
         public float Xp { get; set; }
         public int Niveau { get; set; }
-        public string Genre { get; set; }
         public int IdRace  { get; set; }
         public Race Race { get; set; }
         public int IdClasse { get; set; }
