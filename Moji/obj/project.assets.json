@@ -5442,30 +5442,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Elimie\\.nuget\\packages\\": {},
-    "E:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Biche\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
+      "projectUniqueName": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
       "projectName": "Moji",
-      "projectPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\Moji.csproj",
-      "packagesPath": "C:\\Users\\Elimie\\.nuget\\packages\\",
-      "outputPath": "D:\\MDS B3 DEV\\C#\\Moji\\Moji\\obj\\",
+      "projectPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
+      "packagesPath": "C:\\Users\\Biche\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "E:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Elimie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "E:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Biche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "E:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5540,7 +5536,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
