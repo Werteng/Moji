@@ -15,11 +15,5 @@ namespace Moji.Data
         {
             optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=moji;Integrated Security=True;");
         }
-
-        public Personnage FindById(int Id)
-        {
-            var ctx = new MojiDbContext();
-            return ctx.Personnages.Find(Id);
-        }
     }
 }

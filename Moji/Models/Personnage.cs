@@ -9,6 +9,12 @@ namespace Moji.Entities
 {
     public class Personnage
     {
+        public Personnage()
+        {
+            this.ManaActuel = 20;
+            this.ManaMax = 120;
+        }
+
         public int Id { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }

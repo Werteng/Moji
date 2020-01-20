@@ -26,14 +26,18 @@ namespace Moji.Controllers
 
         public IActionResult Save(Personnage personnage)
         {
-            if (personnage.Id.Equals(null))
+            if (ModelState.IsValid)
             {
-                db.Add(personnage);
-            } else
-            {
-                db.Update(personnage);
+                if (personnage.Id.Equals(null))
+                {
+                    db.Add(personnage);
+                }
+                else
+                {
+                    db.Update(personnage);
+                }
+                db.SaveChanges();
             }
-            db.SaveChanges();
             return RedirectToAction("Index", "Personnage");
         }
 
@@ -55,12 +59,27 @@ namespace Moji.Controllers
         public IActionResult Delete(Personnage personnage)
         {
             db.Remove(personnage);
-            return View();
+            return View(personnage);
         }
 
-        public IActionResult Details(Personnage personnage)
+        public IActionResult Details(int id)
         {
-            return View();
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var personnages = db.Personnages;
+            Personnage result = new Personnage();
+            foreach (Personnage perso in personnages)
+            {
+                if (perso.Id == id)
+                {
+                    result = perso;
+                }
+            }
+
+            return View(result);
         }
 
     }
