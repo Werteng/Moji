@@ -1,4 +1,4 @@
-﻿@model Moji.Entities.Personnage
+﻿@model Moji.ViewModels.PersonnageViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -22,24 +22,22 @@
                         <input asp-for="Prenom" class="form-control" />
                         <span asp-validation-for="Prenom" class="text-danger"></span>
                     </div>
+                                     
                     <div class="form-group">
-                        <label asp-for="AvatarUrl" class="control-label"></label>
-                        <input asp-for="AvatarUrl" class="form-control" />
-                        <span asp-validation-for="AvatarUrl" class="text-danger"></span>
+                        <label asp-for="IdRace" class="col-md-2 control-label"></label>
+                        <div class="col-md-5">
+                            <select asp-for="IdRace" asp-items="@Model.RaceItems" class="form-control"></select>
+                            <span asp-validation-for="IdRace" class="text-danger"></span>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Genre" class="control-label"></label>
-                        <input asp-for="Genre" class="form-control" />
-                        <span asp-validation-for="Genre" class="text-danger"></span>
+                        <label asp-for="IdClasse" class="col-md-2 control-label"></label>
+                        <div class="col-md-5">
+                            <select asp-for="IdClasse" asp-items="@Model.ClassItems" class="form-control"></select>
+                            <span asp-validation-for="ClassItems" class="text-danger"></span>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label class="control-label">Race</label>
-                        <input asp-for="IdRace" class="form-control" />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label"> Classe</label>
-                        <input asp-for="IdClasse" class="form-control" /> 
-                    </div>
+
                     <div class="form-group">
                         <input type="submit" value="Créer" class="btn btn-primary" />
                     </div>

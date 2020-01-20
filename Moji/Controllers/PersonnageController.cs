@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Moji.Data;
 using Moji.Entities;
+using Moji.ViewModels;
 using System.Linq;
 using System.Net;
-using System.Web.Mvc;
+
 
 namespace Moji.Controllers
 {
+
     public class PersonnageController : Microsoft.AspNetCore.Mvc.Controller
     {
 
@@ -20,8 +23,11 @@ namespace Moji.Controllers
         }
 
         public IActionResult Create(int Id)
-        { 
-            return View();
+        {
+            var classes = db.Classes.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
+            var races = db.Races.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
+
+            return View(new PersonnageViewModel() { ClassItems=classes,RaceItems=races});
         }
 
         public IActionResult Save(Personnage personnage)

@@ -10,6 +10,16 @@ namespace Moji.Data
     public class MojiDbContext : DbContext
     {
         public DbSet<Personnage> Personnages { get; set; }
+        public DbSet<Classe> Classes { get; set; }
+        public DbSet<Race> Races { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Classe>().ToTable("Classe");
+            modelBuilder.Entity<Race>().ToTable("Race");
+        }
+       
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
