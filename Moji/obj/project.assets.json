@@ -5442,11 +5442,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Biche\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\antoi\\.nuget\\packages\\": {}
+>>>>>>> 76f1de2f22074f676cbff17b2ccda04a14f35b8d
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
       "projectName": "Moji",
       "projectPath": "C:\\Users\\Biche\\Desktop\\C#\\Moji\\Moji\\Moji.csproj",
@@ -5455,6 +5460,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Biche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
+      "projectName": "Moji",
+      "projectPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\Moji.csproj",
+      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antoi\\source\\repos\\Moji\\Moji\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 76f1de2f22074f676cbff17b2ccda04a14f35b8d
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5518,16 +5533,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.0.1, 3.0.1]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.0.1, 3.0.1]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5536,7 +5541,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 76f1de2f22074f676cbff17b2ccda04a14f35b8d
       }
     }
   },

@@ -51,15 +51,17 @@ a:hover{
 
 
 .affichagePersonnage {
-    float:left;
-    width: 25.1%;
+
     border: 2px solid #F28A15;
     
 }
 
+.affichagePersonnageDetail {
+    border: 2px solid #F28A15;
+    padding:10px;
+}
+
 div.container.content {
-    
-   
 }
 
 .creationPersonnage {
