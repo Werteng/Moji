@@ -56,10 +56,19 @@ namespace Moji.Controllers
             return View(result);
         }
 
-        public IActionResult Delete(Personnage personnage)
+        public IActionResult Delete(int Id)
         {
-            db.Remove(personnage);
-            return View(personnage);
+            var personnages = db.Personnages.ToList();
+            Personnage result = new Personnage();
+            foreach (Personnage perso in personnages)
+            {
+                if (perso.Id == Id)
+                {
+                    result = perso;
+                }
+            }
+            db.Remove(result);
+            return View(result);
         }
 
         public IActionResult Details(int id)

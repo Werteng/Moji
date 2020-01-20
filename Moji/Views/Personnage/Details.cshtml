@@ -10,87 +10,39 @@
     <h4>Personnage</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nom)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nom)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Prenom)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Prenom)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AvatarUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AvatarUrl)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Or)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Or)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SanteActuel)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SanteActuel)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SanteMax)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SanteMax)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ManaActuel)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ManaActuel)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ManaMax)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ManaMax)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Xp)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Xp)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Niveau)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Niveau)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Genre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Genre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdRace)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdRace)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdClasse)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdClasse)
-        </dd>
+        <div class="col-6">
+            <img class="imgfond affichagePersonnage" src="~/Content/fond.png" alt="" />
+        </div>
+        <div class="col-6 ">
+            <div class="affichagePersonnageDetail">
+                <p>
+                    <label class="col-4">Nom : @Html.DisplayFor(model => model.Nom)</label>
+                    <label class="col-4">Prénom : @Html.DisplayFor(model => model.Prenom)</label>
+                    <label class="col-3">Niveau : @Html.DisplayFor(model => model.Niveau)</label>
+                </p>
+                <p>
+                    <label class="col-4">
+                        Genre : @Html.DisplayFor(model => model.Genre)
+                    </label>
+                    <label class="col-4">
+                        Race : @Html.DisplayFor(model => model.IdRace)
+                    </label>
+                    <label class="col-3">Classe : @Html.DisplayFor(model => model.IdClasse)</label>
+                </p>
+                <p>
+                    <label class="col-4">SanteMax : @Html.DisplayFor(model => model.SanteMax)</label>
+                    <label class="col-4">ManaMax : @Html.DisplayFor(model => model.ManaMax)</label>
+                </p>
+                <p class="text-right">Or : @Html.DisplayFor(model => model.Or)</p>
+
+            </div>
+        </div>
+
+
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editer</a> |
+    <a asp-action="Index">Retour à la liste de personnage</a>
 </div>
+
