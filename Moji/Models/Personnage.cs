@@ -17,7 +17,7 @@ namespace Moji.Entities
             this.SanteActuel = 100;
             this.SanteMax = 100;
             this.Xp = 0;
-            this.Niveau = 0;
+            this.Niveau = 1;
         }
 
         public int Id { get; set; }
