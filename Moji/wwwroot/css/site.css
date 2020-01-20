@@ -23,10 +23,10 @@ a {
     text-decoration: none;
 }
 
-a:hover{
-    text-decoration:none;
-    color:white;
-}
+    a:hover {
+        text-decoration: none;
+        color: #F28A15;
+    }
 
 .logo {
     width: 20%;
@@ -69,7 +69,7 @@ div.container.content {
     display: inline-block;
     width: 73%;
     border: 2px solid #F28A15;
-    float:right
+    margin: 0 auto;
 }
 
 .imgfond{
