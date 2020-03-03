@@ -10,9 +10,9 @@ namespace Moji.ViewModels
     {
         public string Nom { get; set; }
         public string Prenom { get; set; }
-        public int IdRace { get; set; }
+        public int RaceId { get; set; }
         public List<SelectListItem> RaceItems { get; set; }
-        public int IdClasse { get; set; }
+        public int ClasseId { get; set; }
         public int Id { get; set; }
 
         public List<SelectListItem> ClassItems { get; set; }

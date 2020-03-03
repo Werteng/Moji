@@ -19,7 +19,7 @@ namespace Moji.Controllers
         //GET : Personnage
         public IActionResult Index()
         {
-            var personnages = db.Personnages.Include(x=>x.Race);
+            var personnages = db.Personnages.Include(x=>x.Race).Include(x=>x.Classe);
 
             return View(personnages);
         }
@@ -64,8 +64,8 @@ namespace Moji.Controllers
                     result.Id = perso.Id;
                     result.Nom = perso.Nom;
                     result.Prenom = perso.Prenom;
-                    result.IdClasse = perso.ClasseId;
-                    result.IdRace = perso.RaceId;
+                    result.ClasseId = perso.ClasseId;
+                    result.RaceId = perso.RaceId;
                     result.ClassItems=classes;
                     result.RaceItems = races;
 
