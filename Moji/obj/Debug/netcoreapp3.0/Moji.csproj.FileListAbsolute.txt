@@ -128,3 +128,4 @@ D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.Views.pdb
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csproj.CopyComplete
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.dll
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.pdb
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Jouer\Index.cshtml.g.cs

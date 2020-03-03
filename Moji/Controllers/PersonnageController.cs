@@ -74,9 +74,10 @@ namespace Moji.Controllers
             return View(result);
         }
 
+
         public IActionResult Delete(int Id)
         {
-            var personnages = db.Personnages.ToList();
+            var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
             Personnage result = new Personnage();
             foreach (Personnage perso in personnages)
             {
@@ -96,7 +97,7 @@ namespace Moji.Controllers
                 return NotFound();
             }
 
-            var personnages = db.Personnages;
+            var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
             Personnage result = new Personnage();
             foreach (Personnage perso in personnages)
             {
