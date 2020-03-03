@@ -1,51 +1,51 @@
-﻿@model Moji.Entities.Personnage
+﻿@model Moji.ViewModels.PersonnageViewModel
 
 @{
     ViewData["Title"] = "Edit";
 }
-    <div class="creerEditer">
-        <h1>Editer</h1>
+<div class="creerEditer">
+    <h1>Editer</h1>
 
-        <h4>Personnage</h4>
-        <hr />
-        <div class="row">
-            <div class="col-md-4">
-                <form asp-action="Save">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <input type="hidden" asp-for="Id" />
-                    <div class="form-group">
-                        <label asp-for="Nom" class="control-label"></label>
-                        <input asp-for="Nom" class="form-control" value="@Model.Nom" />
-                        <span asp-validation-for="Nom" class="text-danger"></span>
+    <h4>Personnage</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Save">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Nom" class="control-label"></label>
+                    <input asp-for="Nom" class="form-control" value="@Model.Nom" />
+                    <span asp-validation-for="Nom" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Prenom" class="control-label"></label>
+                    <input asp-for="Prenom" class="form-control" />
+                    <span asp-validation-for="Prenom" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IdRace" class="col-md-2 control-label"></label>
+                    <div class="col-md-5">
+                        <select asp-for="IdRace" asp-items="@Model.RaceItems" class="form-control"></select>
+                        <span asp-validation-for="IdRace" class="text-danger"></span>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="Prenom" class="control-label"></label>
-                        <input asp-for="Prenom" class="form-control" />
-                        <span asp-validation-for="Prenom" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="AvatarUrl" class="control-label"></label>
-                        <input asp-for="AvatarUrl" class="form-control" />
-                        <span asp-validation-for="AvatarUrl" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Race</label>
-                        <input asp-for="IdRace" class="form-control" />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Classe</label>
-                        <input asp-for="IdClasse" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="IdClasse" class="col-md-2 control-label"></label>
+                    <div class="col-md-5">
+                        <select asp-for="IdClasse" asp-items="@Model.ClassItems" class="form-control"></select>
+                        <span asp-validation-for="ClassItems" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Sauvegarder" class="btn btn-primary" />
                     </div>
-                </form>
-            </div>
-        </div>
-        <div>
-            <a asp-action="Index">Retour sur la liste</a>
+            </form>
         </div>
     </div>
+    <div>
+        <a asp-action="Index">Retour sur la liste</a>
+    </div>
+</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -7,6 +7,16 @@
   <ItemGroup>
     <Compile Remove="Migrations\20191029151903_InitialCreate.cs" />
     <Compile Remove="Migrations\20191029151903_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20191118090304_InitialCreate.cs" />
+    <Compile Remove="Migrations\20191118090304_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20191118132322_User.cs" />
+    <Compile Remove="Migrations\20191118132322_User.Designer.cs" />
+    <Compile Remove="Migrations\20191122104126_SuppressionAccount.cs" />
+    <Compile Remove="Migrations\20191122104126_SuppressionAccount.Designer.cs" />
+    <Compile Remove="Migrations\20191122151830_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20191122151830_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200218111832_CleEtrangere.cs" />
+    <Compile Remove="Migrations\20200218111832_CleEtrangere.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

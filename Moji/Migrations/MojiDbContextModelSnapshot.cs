@@ -79,19 +79,7 @@ namespace Moji.Migrations
                     b.Property<string>("AvatarUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ClasseId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Genre")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("IdClasse")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdRace")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdUser")
+                    b.Property<int>("ClasseId")
                         .HasColumnType("int");
 
                     b.Property<float>("ManaActuel")
@@ -112,7 +100,7 @@ namespace Moji.Migrations
                     b.Property<string>("Prenom")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("RaceId")
+                    b.Property<int>("RaceId")
                         .HasColumnType("int");
 
                     b.Property<float>("SanteActuel")
@@ -120,9 +108,6 @@ namespace Moji.Migrations
 
                     b.Property<float>("SanteMax")
                         .HasColumnType("real");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
 
                     b.Property<float>("Xp")
                         .HasColumnType("real");
@@ -132,8 +117,6 @@ namespace Moji.Migrations
                     b.HasIndex("ClasseId");
 
                     b.HasIndex("RaceId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Personnages");
                 });
@@ -185,24 +168,6 @@ namespace Moji.Migrations
                     b.ToTable("Sort");
                 });
 
-            modelBuilder.Entity("Moji.Entities.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("motDePasse")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("User");
-                });
-
             modelBuilder.Entity("Moji.Entities.Arme", b =>
                 {
                     b.HasOne("Moji.Entities.Classe", "Classe")
@@ -214,15 +179,15 @@ namespace Moji.Migrations
                 {
                     b.HasOne("Moji.Entities.Classe", "Classe")
                         .WithMany("Personnages")
-                        .HasForeignKey("ClasseId");
+                        .HasForeignKey("ClasseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Moji.Entities.Race", "Race")
                         .WithMany("Personnages")
-                        .HasForeignKey("RaceId");
-
-                    b.HasOne("Moji.Entities.User", "User")
-                        .WithMany("Personnages")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("RaceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Moji.Entities.Sort", b =>

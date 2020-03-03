@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Moji.Data;
 using Moji.Entities;
 using Moji.ViewModels;
@@ -18,7 +19,8 @@ namespace Moji.Controllers
         //GET : Personnage
         public IActionResult Index()
         {
-            var personnages = db.Personnages;
+            var personnages = db.Personnages.Include(x=>x.Race);
+
             return View(personnages);
         }
 
@@ -26,7 +28,6 @@ namespace Moji.Controllers
         {
             var classes = db.Classes.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
             var races = db.Races.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
-
             return View(new PersonnageViewModel() { ClassItems=classes,RaceItems=races});
         }
 
@@ -52,13 +53,22 @@ namespace Moji.Controllers
 
         public IActionResult Edit(int Id)
         {
+            var classes = db.Classes.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
+            var races = db.Races.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
             var personnages = db.Personnages.ToList();
-            Personnage result = new Personnage();
+            PersonnageViewModel result = new PersonnageViewModel();
             foreach (Personnage perso in personnages)
             {
                 if (perso.Id == Id)
                 {
-                    result = perso;
+                    result.Id = perso.Id;
+                    result.Nom = perso.Nom;
+                    result.Prenom = perso.Prenom;
+                    result.IdClasse = perso.ClasseId;
+                    result.IdRace = perso.RaceId;
+                    result.ClassItems=classes;
+                    result.RaceItems = races;
+
                 }
             }
             return View(result);

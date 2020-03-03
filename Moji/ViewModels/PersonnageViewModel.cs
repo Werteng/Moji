@@ -13,11 +13,9 @@ namespace Moji.ViewModels
         public int IdRace { get; set; }
         public List<SelectListItem> RaceItems { get; set; }
         public int IdClasse { get; set; }
+        public int Id { get; set; }
 
         public List<SelectListItem> ClassItems { get; set; }
-
-
-
 
     }
 }

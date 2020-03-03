@@ -2,7 +2,7 @@
 
 namespace Moji.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Initial_Create : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -97,11 +97,8 @@ namespace Moji.Migrations
                     ManaMax = table.Column<float>(nullable: false),
                     Xp = table.Column<float>(nullable: false),
                     Niveau = table.Column<int>(nullable: false),
-                    Genre = table.Column<string>(nullable: true),
-                    IdRace = table.Column<int>(nullable: false),
-                    RaceId = table.Column<int>(nullable: true),
-                    IdClasse = table.Column<int>(nullable: false),
-                    ClasseId = table.Column<int>(nullable: true)
+                    RaceId = table.Column<int>(nullable: false),
+                    ClasseId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -111,13 +108,13 @@ namespace Moji.Migrations
                         column: x => x.ClasseId,
                         principalTable: "Classe",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Personnages_Race_RaceId",
                         column: x => x.RaceId,
                         principalTable: "Race",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(

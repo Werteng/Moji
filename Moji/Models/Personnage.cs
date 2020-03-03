@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace Moji.Entities
 {
     public class Personnage
@@ -31,14 +30,14 @@ namespace Moji.Entities
         public float ManaMax { get; set; }
         public float Xp { get; set; }
         public int Niveau { get; set; }
-        public int IdRace  { get; set; }
+        public int RaceId  { get; set; }
         public Race Race { get; set; }
-        public int IdClasse { get; set; }
+        public int ClasseId { get; set; }
         public Classe Classe { get; set; }
 
         public void assignAvatar()
         {
-            if(this.IdRace == 0)
+            if(this.RaceId == 0)
             {
                 this.AvatarUrl = "./wwwroot/Content/Persos/mage.png";
             }
