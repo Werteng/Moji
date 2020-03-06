@@ -1,131 +1,82 @@
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\staticwebassets\Moji.StaticWebAssets.Manifest.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\staticwebassets\Moji.StaticWebAssets.xml
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorAssemblyInfo.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorAssemblyInfo.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.AssemblyInfoInputs.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.AssemblyInfo.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.TagHelpers.input.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.TagHelpers.output.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorCoreGenerate.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Create.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Delete.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Details.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Edit.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Index.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorTargetAssemblyInfo.cache
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorTargetAssemblyInfo.cs
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.pdb
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\appsettings.Development.json
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\appsettings.json
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.StaticWebAssets.xml
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.exe
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.deps.json
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.runtimeconfig.json
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.runtimeconfig.dev.json
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.pdb
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.Views.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.Views.pdb
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.Views.pdb
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csproj.CopyComplete
-C:\Users\Biche\Desktop\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csprojAssemblyReference.cache
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\appsettings.Development.json
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\appsettings.json
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.StaticWebAssets.xml
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.exe
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.deps.json
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.runtimeconfig.json
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.runtimeconfig.dev.json
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.pdb
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.Views.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.Views.pdb
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.exe
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\MDS B3 DEV\C#\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csprojAssemblyReference.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\staticwebassets\Moji.StaticWebAssets.Manifest.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\staticwebassets\Moji.StaticWebAssets.xml
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.MvcApplicationPartsAssemblyInfo.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.MvcApplicationPartsAssemblyInfo.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorAssemblyInfo.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorAssemblyInfo.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.AssemblyInfoInputs.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.AssemblyInfo.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.TagHelpers.input.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.TagHelpers.output.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorCoreGenerate.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Create.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Delete.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Details.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Edit.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Index.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorTargetAssemblyInfo.cache
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorTargetAssemblyInfo.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.Views.pdb
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csproj.CopyComplete
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.dll
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.pdb
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Jouer\Index.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.StaticWebAssets.xml
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.exe
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.deps.json
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.runtimeconfig.json
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.runtimeconfig.dev.json
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.pdb
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.Views.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Moji.Views.pdb
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\staticwebassets\Moji.StaticWebAssets.Manifest.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\staticwebassets\Moji.StaticWebAssets.xml
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorAssemblyInfo.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorAssemblyInfo.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.AssemblyInfoInputs.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.AssemblyInfo.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.TagHelpers.input.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.TagHelpers.output.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorCoreGenerate.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Jouer\Index.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Create.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Delete.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Details.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Edit.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Index.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorTargetAssemblyInfo.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorTargetAssemblyInfo.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.Views.pdb
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csproj.CopyComplete
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.dll
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.pdb
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\antoi\Desktop\Moji\Moji\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csprojAssemblyReference.cache
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\antoi\Desktop\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.MvcApplicationPartsAssemblyInfo.cache
