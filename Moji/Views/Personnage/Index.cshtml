@@ -73,15 +73,15 @@
                         @Html.DisplayFor(modelItem => item.Classe.Libelle)
                     </td>
                     <td>
-                        <button type="button" class="btn btn-success mb-2 bouttonCrePerso">
-                            <a asp-action="Edit" asp-route-id="@item.Id">Editer</a>
-                        </button>
-                        <button type="button" class="btn btn-info mb-2 bouttonCrePerso">
-                            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                        </button>
-                        <button type="button" class="btn btn-danger mb-2 bouttonCrePerso">
-                            <a asp-action="RedirectionDelete" asp-route-id="@item.Id">Supprimer</a>
-                        </button>
+                       
+                            <a asp-action="Edit" class="btn btn-success mb-2 bouttonCrePerso" asp-route-id="@item.Id">Editer</a>
+                       
+                        
+                            <a asp-action="Details" class="btn btn-info mb-2 bouttonCrePerso" asp-route-id="@item.Id">Details</a>
+                        
+                      
+                            <a asp-action="DeletePage" class="btn btn-danger mb-2 bouttonCrePerso" asp-route-id="@item.Id">Supprimer</a>
+                        
                     </td>
                 </tr>
             }

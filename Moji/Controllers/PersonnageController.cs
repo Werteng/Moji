@@ -14,7 +14,7 @@ namespace Moji.Controllers
     public class PersonnageController : Microsoft.AspNetCore.Mvc.Controller
     {
 
-        private MojiDbContext db = new MojiDbContext();
+        private readonly MojiDbContext db = new MojiDbContext();
 
         //GET : Personnage
         public IActionResult Index()
@@ -24,7 +24,7 @@ namespace Moji.Controllers
             return View(personnages);
         }
 
-        public IActionResult Create(int Id)
+        public IActionResult Create()
         {
             var classes = db.Classes.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
             var races = db.Races.Select(c => new SelectListItem { Text = c.Libelle, Value = c.Id.ToString() }).ToList();
@@ -37,12 +37,10 @@ namespace Moji.Controllers
             {
                 if (personnage.Id.Equals(null))
                 {
-                    personnage.assignAvatar();
                     db.Add(personnage);
                 }
                 else
                 {
-                    personnage.assignAvatar();
                     db.Update(personnage);
                 }
                 db.SaveChanges();
@@ -75,6 +73,20 @@ namespace Moji.Controllers
         }
 
 
+        public IActionResult DeletePage(int Id)
+        {
+            var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
+            Personnage result = new Personnage();
+            foreach (Personnage perso in personnages)
+            {
+                if (perso.Id == Id)
+                {
+                    result = perso;
+                }
+            }
+            return View(result);
+        }
+
         public IActionResult Delete(int Id)
         {
             var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
@@ -87,16 +99,16 @@ namespace Moji.Controllers
                 }
             }
             db.Remove(result);
-            return View(result);
+            db.SaveChanges();
+            return RedirectToAction("Index", "Personnage");
         }
+
+
+
+
 
         public IActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
             var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
             Personnage result = new Personnage();
             foreach (Personnage perso in personnages)

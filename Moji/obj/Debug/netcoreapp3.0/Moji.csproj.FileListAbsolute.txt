@@ -114,7 +114,6 @@ D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.RazorCoreGenerate.cache
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Create.cshtml.g.cs
-D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Delete.cshtml.g.cs
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Details.cshtml.g.cs
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Edit.cshtml.g.cs
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\Index.cshtml.g.cs
@@ -129,3 +128,4 @@ D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.csproj.CopyComplete
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.dll
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Moji.pdb
 D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Jouer\Index.cshtml.g.cs
+D:\MDS B3 DEV\C#\Moji\Moji\obj\Debug\netcoreapp3.0\Razor\Views\Personnage\DeletePage.cshtml.g.cs
