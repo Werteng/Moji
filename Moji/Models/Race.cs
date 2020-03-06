@@ -9,7 +9,6 @@ namespace Moji.Entities
     {
         public int Id { get; set; }
         public string Libelle { get; set; }
-
         public List<Personnage> Personnages { get; set; }
 
     }
