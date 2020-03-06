@@ -35,14 +35,5 @@ namespace Moji.Entities
         public int ClasseId { get; set; }
         public Classe Classe { get; set; }
 
-        public void assignAvatar()
-        {
-            if(this.RaceId == 0)
-            {
-                this.AvatarUrl = "./wwwroot/Content/Persos/mage.png";
-            }
-
-            //TODO attribuer images aux classes et faire la même chose pour race
-        }
     }
 }

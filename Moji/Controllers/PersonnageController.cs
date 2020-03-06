@@ -37,12 +37,10 @@ namespace Moji.Controllers
             {
                 if (personnage.Id.Equals(null))
                 {
-                    personnage.assignAvatar();
                     db.Add(personnage);
                 }
                 else
                 {
-                    personnage.assignAvatar();
                     db.Update(personnage);
                 }
                 db.SaveChanges();
@@ -75,6 +73,20 @@ namespace Moji.Controllers
         }
 
 
+        public IActionResult DeletePage(int Id)
+        {
+            var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
+            Personnage result = new Personnage();
+            foreach (Personnage perso in personnages)
+            {
+                if (perso.Id == Id)
+                {
+                    result = perso;
+                }
+            }
+            return View(result);
+        }
+
         public IActionResult Delete(int Id)
         {
             var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
@@ -87,13 +99,16 @@ namespace Moji.Controllers
                 }
             }
             db.Remove(result);
-            return View(result);
+            db.SaveChanges();
+            return RedirectToAction("Index", "Personnage");
         }
+
+
+
+
 
         public IActionResult Details(int id)
         {
-            
-
             var personnages = db.Personnages.Include(x => x.Race).Include(x => x.Classe);
             Personnage result = new Personnage();
             foreach (Personnage perso in personnages)

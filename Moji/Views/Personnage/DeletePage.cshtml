@@ -1,0 +1,93 @@
+﻿@model Moji.Entities.Personnage
+
+@{
+    ViewData["Title"] = "DeletePage";
+}
+
+<h1>Supprimer</h1>
+
+<h3>Etes vous sur de vouloir supprimer ce personnage ?</h3>
+<div>
+    <h4>Personnage</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prenom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prenom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AvatarUrl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AvatarUrl)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Or)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Or)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SanteActuel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SanteActuel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SanteMax)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SanteMax)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ManaActuel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ManaActuel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ManaMax)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ManaMax)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Xp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Xp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Niveau)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Niveau)
+        </dd>
+        <dt class = "col-sm-2">
+            Race
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Race.Libelle) 
+        </dd>
+        <dt class = "col-sm-2">
+            Classe
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Classe.Libelle)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-action="Index">Retour à la liste des personnages</a>
+    </form>
+</div>

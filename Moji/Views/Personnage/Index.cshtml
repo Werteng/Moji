@@ -73,9 +73,10 @@
                         @Html.DisplayFor(modelItem => item.Classe.Libelle)
                     </td>
                     <td>
-                        <a asp-action="Edit" class="btn btn-success mb-2 bouttonCrePerso" asp-route-id="@item.Id">Editer</a>
-                        <a asp-action="Details" class="btn btn-info mb-2 bouttonCrePerso" asp-route-id="@item.Id">Details</a>
-                        <a asp-action="Delete" class="btn btn-danger mb-2 bouttonCrePerso" asp-route-id="@item.Id">Supprimer</a>        
+                            <a asp-action="Edit" class="btn btn-success mb-2 bouttonCrePerso" asp-route-id="@item.Id">Editer</a>
+                            <a asp-action="Details" class="btn btn-info mb-2 bouttonCrePerso" asp-route-id="@item.Id">Details</a>
+                            <a asp-action="DeletePage" class="btn btn-danger mb-2 bouttonCrePerso" asp-route-id="@item.Id">Supprimer</a>
+                        
                     </td>
                 </tr>
             }
